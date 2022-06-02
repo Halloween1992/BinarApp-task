@@ -1,0 +1,44 @@
+.action {
+  margin-top: 4rem;
+}
+
+.main_container {
+  border: 1px solid;
+  display: flex;
+  height: 500px;
+  overflow: unset;
+  padding: 3rem;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.main_container p {
+  cursor: pointer;
+}
+
+.elements {
+  position: relative;
+  height: fit-content;
+}
+.randomNum {
+  display: none;
+}
+
+.choosen {
+  pointer-events: none;
+  cursor: not-allowed;
+  color: rgb(128, 128, 128);
+}
+.unClickAble {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.goodWord {
+  pointer-events: none;
+  cursor: not-allowed;
+  color: green;
+}
+.badWord {
+  pointer-events: none;
+  cursor: not-allowed;
+  color: rgb(177, 21, 73);
+}
